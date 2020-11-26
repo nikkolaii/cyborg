@@ -1,0 +1,4 @@
+<launch>
+   <node pkg="rosaria" type="RosAria" name="RosAria" />
+   <node pkg="arduino_controller" type="arduino_controller.py" name="sensor_node" />
+</launch>
